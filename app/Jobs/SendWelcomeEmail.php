@@ -31,5 +31,8 @@ class SendWelcomeEmail implements ShouldQueue
     public function handle()
     {
         //
+        sleep(5);
+
+        info('Hello');
     }
 }
